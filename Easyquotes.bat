@@ -15,13 +15,17 @@ if "%choice%"=="3" goto exit
 
 
 :run_script
-python "C:\Users\miran\Desktop\Easyquotes\easyquotes.py" :: Please change to the directory with easyquotes.py in it
+python "C:\Users\miran\Desktop\Easyquotes\easyquotes.py" 
+pause
+cls
 goto menu
 
 :clear
-del /q "C:\Users\miran\Pictures\Screenshots\*.*" :: Change to your screenshots folder(Usually located in the pictures section of file explorer:all screenshots using snipping tool will automatically go here)
+del /q "C:\Users\miran\Pictures\Screenshots\*.*" 
 for /d %%p in ("C:\Users\miran\Pictures\Screenshots\*") do rd /s /q "%%p" > nul 2>&1 :: Also change to your screen shots folder
 echo Cleared!
+pause
+cls
 goto menu
 
 
