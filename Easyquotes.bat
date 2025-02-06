@@ -4,7 +4,7 @@ color 0A
                                                                                                                                                                                                                                
 :menu
 echo Please choose an option:
-echo 1. Run Script
+echo 1. Fetch text
 echo 2. Clear Screenshot folder
 echo 3. Exit
 set /p choice=Enter your choice (1,2 or 3):
