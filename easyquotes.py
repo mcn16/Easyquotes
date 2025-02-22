@@ -1,6 +1,8 @@
 import pytesseract
 from PIL import Image
 import os
+import pyperclip
+
 
 # Set the Tesseract executable path (downnload tessart from the website (make sure you use the installer) and locate your tesseract.exe file
 pytesseract.pytesseract.tesseract_cmd = r'C:\Users\miran\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
@@ -33,5 +35,6 @@ else:
         text = pytesseract.image_to_string(img)
         print("Extracted Text:")
         print(text)
+        pyperclip.copy(text)
     except Exception as e:
         print(f"Error processing the image: {e}")
