@@ -3,7 +3,10 @@ title Quotes
 color 0A
                                                                                                                                                                                                                                
 <<<<<<< HEAD
+<<<<<<< HEAD
 color 0A                                                                                                                                                                                                                            
+=======
+>>>>>>> parent of d33e04e (added automatic copy and paste of the text)
 =======
 >>>>>>> parent of d33e04e (added automatic copy and paste of the text)
 :menu
@@ -16,7 +19,10 @@ echo 1. Fetch text
 :run_script
 python "C:\Users\miran\Desktop\Easyquotes\easyquotes.py" 
 <<<<<<< HEAD
+<<<<<<< HEAD
 python "C:\Users\miran\Desktop\Easyquotes\easyquotes.py"
+=======
+>>>>>>> parent of d33e04e (added automatic copy and paste of the text)
 =======
 >>>>>>> parent of d33e04e (added automatic copy and paste of the text)
 pause
@@ -26,7 +32,10 @@ goto menu
 :clear
 del /q "C:\Users\miran\Pictures\Screenshots\*.*" 
 <<<<<<< HEAD
+<<<<<<< HEAD
 del /q "C:\Users\miran\Pictures\Screenshots\*.*"
+=======
+>>>>>>> parent of d33e04e (added automatic copy and paste of the text)
 =======
 >>>>>>> parent of d33e04e (added automatic copy and paste of the text)
 for /d %%p in ("C:\Users\miran\Pictures\Screenshots\*") do rd /s /q "%%p" > nul 2>&1 :: Also change to your screen shots folder
@@ -39,8 +48,11 @@ pause
 echo Exiting...
 pause
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> parent of d33e04e (added automatic copy and paste of the text)
 =======
 >>>>>>> parent of d33e04e (added automatic copy and paste of the text)
 
