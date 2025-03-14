@@ -22,7 +22,7 @@ goto menu
 
 :clear
 del /q "C:\Users\miran\Pictures\Screenshots\*.*" 
-for /d %%p in ("C:\Users\miran\Pictures\Screenshots\*") do rd /s /q "%%p" > nul 2>&1 :: Also change to your screen shots folder
+for /d %%p in ("C:\Users\miran\Pictures\Screenshots\*") do rd /s /q "%%p" > nul 2>&1 
 echo Cleared!
 pause
 cls
