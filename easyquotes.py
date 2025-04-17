@@ -5,7 +5,7 @@ import os
 # Set the Tesseract executable path (downnload tessart from the website (make sure you use the installer) and locate your tesseract.exe file
 pytesseract.pytesseract.tesseract_cmd = r'C:\Users\miran\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
-# Directory where your screenshots are stored(Change!!)
+# Directory where your screenshots are stored(Change to your screenshot folder)
 screenshot_folder = r'C:\Users\miran\Pictures\Screenshots' 
 
 # Get all files in the directory
